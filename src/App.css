@@ -1,0 +1,82 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #d9afd9 35%, #ff5acd 80%);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  max-width: 520px;
+  min-height: 450px;
+  background: #76687d;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 8px;
+  padding-bottom: 32px;
+}
+
+
+.input {
+  width: 250px;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.btn {
+  background: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  padding: 14px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  /* font-size: .9rem; */
+}
+
+.todo h2 {
+  color: #e0c3fc;
+  padding-bottom: 1rem;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.todos {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #d9afd9 30%, #97d9e1 80%);
+  margin: 13px auto;
+  padding: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.icons {
+  cursor: pointer;
+}
+
+/* #ff5acd  d9afd9*/
+.edit-icon {
+  color: #ff5acd;
+  margin-right: 2px;
+}
+
+.delete-icon {
+  color: #444;
+}
+
+.completed {
+  text-decoration: line-through;
+}
